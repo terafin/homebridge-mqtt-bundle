@@ -1,5 +1,5 @@
 node_modules
 *.log
 logs
-homebridge
-mosquitto
+homebridge/accessories
+homebridge/persist
