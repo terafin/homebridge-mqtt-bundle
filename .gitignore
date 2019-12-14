@@ -1,0 +1,5 @@
+node_modules
+*.log
+logs
+homebridge/.docker.env
+homebridge/config.json.*

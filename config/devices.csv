@@ -1,0 +1,78 @@
+button,/buttons/test_1,Button 1
+button,/buttons/test_2,Button 2
+button,/buttons/test_3,Button 3
+button,/buttons/test_4,Button 4
+button,/buttons/test_5,Button 5
+motion_sensor,/motion_sensors/test_1,Motion Sensor 1
+motion_sensor,/motion_sensors/test_2,Motion Sensor 2
+motion_sensor,/motion_sensors/test_3,Motion Sensor 3
+motion_sensor,/motion_sensors/test_4,Motion Sensor 4
+motion_sensor,/motion_sensors/test_5,Motion Sensor 5
+motion_sensor,/motion_sensors/test_6,Motion Sensor 6
+motion_sensor,/motion_sensors/test_7,Motion Sensor 7
+motion_sensor,/motion_sensors/test_8,Motion Sensor 8
+motion_sensor,/motion_sensors/test_9,Motion Sensor 9
+occupancy_sensor,/occupancy_sensors/test_1,Occupancy Sensor 1
+occupancy_sensor,/occupancy_sensors/test_2,Occupancy Sensor 2
+occupancy_sensor,/occupancy_sensors/test_3,Occupancy Sensor 3
+occupancy_sensor,/occupancy_sensors/test_4,Occupancy Sensor 4
+outlet,/outlets/test_1,Outlet 1
+outlet,/outlets/test_2,Outlet 2
+outlet,/outlets/test_3,Outlet 3
+outlet,/outlets/test_4,Outlet 4
+outlet,/outlets/test_5,Outlet 5
+switch,/switches/test_1,Switch 1
+switch,/switches/test_2,Switch 2
+switch,/switches/test_3,Switch 3
+switch,/switches/test_4,Switch 4
+switch,/switches/test_5,Switch 5
+switch,/switches/test_6,Switch 6
+switch,/switches/test_7,Switch 7
+switch,/switches/test_8,Switch 8
+switch,/switches/test_9,Switch 9
+switch,/switches/test_10,Switch 10
+contact_sensor,/contact/test_1,Contact Sensor 1
+contact_sensor,/contact/test_2,Contact Sensor 2
+contact_sensor,/contact/test_3,Contact Sensor 3
+contact_sensor,/contact/test_4,Contact Sensor 4
+fan,/fans/fan_1,Fan 1
+fan,/fans/fan_2,Fan 2
+light,/lights/test_1,Light 1
+light,/lights/test_2,Light 2
+light,/lights/test_3,Light 3
+light,/lights/test_4,Light 4
+light,/lights/test_5,Light 5
+light,/lights/test_6,Light 6
+light,/lights/test_7,Light 7
+light,/lights/test_8,Light 8
+light,/lights/test_9,Light 9
+light,/lights/test_10,Light 10
+light,/lights/test_11,Light 11
+light,/lights/test_12,Light 12
+light,/lights/test_13,Light 13
+light,/lights/test_14,Light 14
+light,/lights/test_15,Light 15
+light,/lights/test_16,Light 16
+light,/lights/test_17,Light 17
+light,/lights/test_18,Light 18
+light,/lights/test_19,Light 19
+light,/lights/test_20,Light 20
+lock,/locks/lock_1,Lock 1
+lock,/locks/lock_2,Lock 2
+garage_door,/garage_doors/garage_door_1,Garage Door 1
+garage_door,/garage_doors/garage_door_2,Garage Door 2
+humidity_sensor,/humidity/test_1,Humidity Sensor 1
+humidity_sensor,/humidity/test_2,Humidity Sensor 2
+humidity_sensor,/humidity/test_3,Humidity Sensor 3
+humidity_sensor,/humidity/test_4,Humidity Sensor 4
+temperature_sensor,/temperature/test_1,Temperature Sensor 1
+temperature_sensor,/temperature/test_2,Temperature Sensor 2
+temperature_sensor,/temperature/test_3,Temperature Sensor 3
+temperature_sensor,/temperature/test_4,Temperature Sensor 4
+leak_sensor,/leak/test_1,Leak Sensor 1
+leak_sensor,/leak/test_2,Leak Sensor 2
+light_sensor,/light_senors/test_1,Light Sensor 1
+light_sensor,/light_senors/test_2,Light Sensor 2
+television,/tvs/main,Main TV
+thermostat,/thermostats/thermostat_1,Thermostat 1
+thermostat,/thermostat/thermostat_2,Thermostat 2

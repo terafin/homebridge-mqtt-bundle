@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto:latest
+    tty: true
+    ports:
+    - "1883:1883"
+    volumes:
+    - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+    - ./mosquitto/data:/mosquitto/data
+    - ./mosquitto/log:/mosquitto/log
+  homebridge:
+    container_name: homebridge
+    image: oznu/homebridge:latest
+    restart: always
+    tty: true
+    ports:
+    - "8080:8080"
+    - "53745:53745"
+    environment:
+      NODE_TLS_REJECT_UNAUTHORIZED: '0'
+      HOMEBRIDGE_CONFIG_UI: '1'
+      HOMEBRIDGE_CONFIG_UI_PORT: '8080'
+      HOMEBRIDGE_DEBUG: '1'
+      PACKAGES: ffmpeg
+      PGID: '100'
+      PUID: '1000'
+      TZ: America/Los_Angeles
+    volumes:
+     - ./homebridge:/homebridge
+    network_mode: host

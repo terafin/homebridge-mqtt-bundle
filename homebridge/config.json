@@ -1,0 +1,1034 @@
+{
+    "bridge": {
+        "name": "Homebridge HomeKit Test 1",
+        "username": "0E:14:98:DC:BF:BA",
+        "port": 53745,
+        "pin": "031-45-154"
+    },
+    "accessories": [
+        {
+            "accessory": "mqttthing",
+            "type": "statelessProgrammableSwitch",
+            "name": "Button 1",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getSwitch": "/buttons/test_1"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "statelessProgrammableSwitch",
+            "name": "Button 2",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getSwitch": "/buttons/test_2"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "statelessProgrammableSwitch",
+            "name": "Button 3",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getSwitch": "/buttons/test_3"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "statelessProgrammableSwitch",
+            "name": "Button 4",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getSwitch": "/buttons/test_4"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "statelessProgrammableSwitch",
+            "name": "Button 5",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getSwitch": "/buttons/test_5"
+           },
+            "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_1",
+               "getStatusActive":       "/motion_sensors/test_1/active",
+               "getStatusFault":        "/motion_sensors/test_1/fault",
+               "getStatusTampered":     "/motion_sensors/test_1/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_2",
+               "getStatusActive":       "/motion_sensors/test_2/active",
+               "getStatusFault":        "/motion_sensors/test_2/fault",
+               "getStatusTampered":     "/motion_sensors/test_2/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 3",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_3",
+               "getStatusActive":       "/motion_sensors/test_3/active",
+               "getStatusFault":        "/motion_sensors/test_3/fault",
+               "getStatusTampered":     "/motion_sensors/test_3/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_3/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 4",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_4",
+               "getStatusActive":       "/motion_sensors/test_4/active",
+               "getStatusFault":        "/motion_sensors/test_4/fault",
+               "getStatusTampered":     "/motion_sensors/test_4/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_4/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 5",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_5",
+               "getStatusActive":       "/motion_sensors/test_5/active",
+               "getStatusFault":        "/motion_sensors/test_5/fault",
+               "getStatusTampered":     "/motion_sensors/test_5/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_5/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 6",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_6",
+               "getStatusActive":       "/motion_sensors/test_6/active",
+               "getStatusFault":        "/motion_sensors/test_6/fault",
+               "getStatusTampered":     "/motion_sensors/test_6/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_6/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 7",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_7",
+               "getStatusActive":       "/motion_sensors/test_7/active",
+               "getStatusFault":        "/motion_sensors/test_7/fault",
+               "getStatusTampered":     "/motion_sensors/test_7/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_7/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 8",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_8",
+               "getStatusActive":       "/motion_sensors/test_8/active",
+               "getStatusFault":        "/motion_sensors/test_8/fault",
+               "getStatusTampered":     "/motion_sensors/test_8/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_8/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "motionSensor",
+           "name": "Motion Sensor 9",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getMotionDetected": "/motion_sensors/test_9",
+               "getStatusActive":       "/motion_sensors/test_9/active",
+               "getStatusFault":        "/motion_sensors/test_9/fault",
+               "getStatusTampered":     "/motion_sensors/test_9/tampered",
+               "getStatusLowBattery":   "/motion_sensors/test_9/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "occupancySensor",
+           "name": "Occupancy Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getOccupancyDetected": "/occupancy_sensors/test_1",
+               "getStatusActive":       "/occupancy_sensors/test_1/active",
+               "getStatusFault":        "/occupancy_sensors/test_1/fault",
+               "getStatusTampered":     "/occupancy_sensors/test_1/tampered",
+               "getStatusLowBattery":   "/occupancy_sensors/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "occupancySensor",
+           "name": "Occupancy Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getOccupancyDetected": "/occupancy_sensors/test_2",
+               "getStatusActive":       "/occupancy_sensors/test_2/active",
+               "getStatusFault":        "/occupancy_sensors/test_2/fault",
+               "getStatusTampered":     "/occupancy_sensors/test_2/tampered",
+               "getStatusLowBattery":   "/occupancy_sensors/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "occupancySensor",
+           "name": "Occupancy Sensor 3",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getOccupancyDetected": "/occupancy_sensors/test_3",
+               "getStatusActive":       "/occupancy_sensors/test_3/active",
+               "getStatusFault":        "/occupancy_sensors/test_3/fault",
+               "getStatusTampered":     "/occupancy_sensors/test_3/tampered",
+               "getStatusLowBattery":   "/occupancy_sensors/test_3/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "occupancySensor",
+           "name": "Occupancy Sensor 4",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getOccupancyDetected": "/occupancy_sensors/test_4",
+               "getStatusActive":       "/occupancy_sensors/test_4/active",
+               "getStatusFault":        "/occupancy_sensors/test_4/fault",
+               "getStatusTampered":     "/occupancy_sensors/test_4/tampered",
+               "getStatusLowBattery":   "/occupancy_sensors/test_4/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "outlet",
+            "name": "Outlet 1",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/outlets/test_1",
+                "setOn": "/outlets/test_1/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "outlet",
+            "name": "Outlet 2",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/outlets/test_2",
+                "setOn": "/outlets/test_2/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "outlet",
+            "name": "Outlet 3",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/outlets/test_3",
+                "setOn": "/outlets/test_3/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "outlet",
+            "name": "Outlet 4",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/outlets/test_4",
+                "setOn": "/outlets/test_4/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "outlet",
+            "name": "Outlet 5",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/outlets/test_5",
+                "setOn": "/outlets/test_5/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 1",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_1",
+                "setOn": "/switches/test_1/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 2",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_2",
+                "setOn": "/switches/test_2/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 3",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_3",
+                "setOn": "/switches/test_3/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 4",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_4",
+                "setOn": "/switches/test_4/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 5",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_5",
+                "setOn": "/switches/test_5/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 6",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_6",
+                "setOn": "/switches/test_6/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 7",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_7",
+                "setOn": "/switches/test_7/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 8",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_8",
+                "setOn": "/switches/test_8/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 9",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_9",
+                "setOn": "/switches/test_9/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "switch",
+            "name": "Switch 10",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/switches/test_10",
+                "setOn": "/switches/test_10/set"
+           },
+            "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "contactSensor",
+           "name": "Contact Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getContactSensorState": "/contact/test_1",
+               "getStatusActive":       "/contact/test_1/active",
+               "getStatusFault":        "/contact/test_1/fault",
+               "getStatusTampered":     "/contact/test_1/tampered",
+               "getStatusLowBattery":   "/contact/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "contactSensor",
+           "name": "Contact Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getContactSensorState": "/contact/test_2",
+               "getStatusActive":       "/contact/test_2/active",
+               "getStatusFault":        "/contact/test_2/fault",
+               "getStatusTampered":     "/contact/test_2/tampered",
+               "getStatusLowBattery":   "/contact/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "contactSensor",
+           "name": "Contact Sensor 3",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getContactSensorState": "/contact/test_3",
+               "getStatusActive":       "/contact/test_3/active",
+               "getStatusFault":        "/contact/test_3/fault",
+               "getStatusTampered":     "/contact/test_3/tampered",
+               "getStatusLowBattery":   "/contact/test_3/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "contactSensor",
+           "name": "Contact Sensor 4",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getContactSensorState": "/contact/test_4",
+               "getStatusActive":       "/contact/test_4/active",
+               "getStatusFault":        "/contact/test_4/fault",
+               "getStatusTampered":     "/contact/test_4/tampered",
+               "getStatusLowBattery":   "/contact/test_4/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "fan",
+            "name": "Fan 1",
+            "url": "mqtt://localhost",
+            "topics": {
+               "getOn": "/fans/fan_1",
+               "setOn":       "/fans/fan_1/set",
+               "getRotationDirection":        "/fans/fan_1/rotation_direction",
+               "setRotationDirection":     "/fans/fan_1/rotation_direction/set",
+               "getRotationSpeed":        "/fans/fan_1/rotation_speed",
+               "setRotationSpeed":     "/fans/fan_1/rotation_speed/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "fan",
+            "name": "Fan 2",
+            "url": "mqtt://localhost",
+            "topics": {
+               "getOn": "/fans/fan_2",
+               "setOn":       "/fans/fan_2/set",
+               "getRotationDirection":        "/fans/fan_2/rotation_direction",
+               "setRotationDirection":     "/fans/fan_2/rotation_direction/set",
+               "getRotationSpeed":        "/fans/fan_2/rotation_speed",
+               "setRotationSpeed":     "/fans/fan_2/rotation_speed/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 1",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_1",
+                "setOn": "/lights/test_1/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 2",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_2",
+                "setOn": "/lights/test_2/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 3",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_3",
+                "setOn": "/lights/test_3/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 4",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_4",
+                "setOn": "/lights/test_4/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 5",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_5",
+                "setOn": "/lights/test_5/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 6",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_6",
+                "setOn": "/lights/test_6/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 7",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_7",
+                "setOn": "/lights/test_7/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 8",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_8",
+                "setOn": "/lights/test_8/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 9",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_9",
+                "setOn": "/lights/test_9/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 10",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_10",
+                "setOn": "/lights/test_10/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 11",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_11",
+                "setOn": "/lights/test_11/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 12",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_12",
+                "setOn": "/lights/test_12/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 13",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_13",
+                "setOn": "/lights/test_13/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 14",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_14",
+                "setOn": "/lights/test_14/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 15",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_15",
+                "setOn": "/lights/test_15/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 16",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_16",
+                "setOn": "/lights/test_16/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 17",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_17",
+                "setOn": "/lights/test_17/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 18",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_18",
+                "setOn": "/lights/test_18/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 19",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_19",
+                "setOn": "/lights/test_19/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lightbulb",
+            "name": "Light 20",
+            "url": "mqtt://localhost",
+            "topics": {
+                "getOn": "/lights/test_20",
+                "setOn": "/lights/test_20/set"
+           },
+            "integerValue": "true"
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lockMechanism",
+            "name": "Lock 1",
+            "url": "mqtt://localhost",
+            "topics": {
+                "setLockTargetState": "/locks/lock_1/set",
+                "getLockTargetState": "/locks/lock_1/target",
+                "getLockCurrentState": "/locks/lock_1"
+           },
+            "lockValues": [ "Unsecured", "Secured", "Jammed",  "Unknown" ]
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "lockMechanism",
+            "name": "Lock 2",
+            "url": "mqtt://localhost",
+            "topics": {
+                "setLockTargetState": "/locks/lock_2/set",
+                "getLockTargetState": "/locks/lock_2/target",
+                "getLockCurrentState": "/locks/lock_2"
+           },
+            "lockValues": [ "Unsecured", "Secured", "Jammed",  "Unknown" ]
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "garageDoorOpener",
+            "name": "Garage Door 1",
+            "url": "mqtt://localhost",
+            "topics": {
+                "setTargetDoorState": "/garage_doors/garage_door_1/set",
+                "getTargetDoorState": "/garage_doors/garage_door_1/target",
+                "getCurrentDoorState": "/garage_doors/garage_door_1",
+                "setLockTargetState": "/garage_doors/garage_door_1/lock/set",
+                "getLockTargetState": "/garage_doors/garage_door_1/lock/target",
+                "getLockCurrentState": "/garage_doors/garage_door_1/lock",
+                "getObstructionDetected": "/garage_doors/garage_door_1/obstruction"
+           },
+           "doorValues": [ "Open", "Closed", "Opening", "Closing", "Stopped" ],
+           "lockValues": [ "Unsecured", "Secured", "Jammed",  "Unknown" ]
+       },
+       {
+            "accessory": "mqttthing",
+            "type": "garageDoorOpener",
+            "name": "Garage Door 2",
+            "url": "mqtt://localhost",
+            "topics": {
+                "setTargetDoorState": "/garage_doors/garage_door_2/set",
+                "getTargetDoorState": "/garage_doors/garage_door_2/target",
+                "getCurrentDoorState": "/garage_doors/garage_door_2",
+                "setLockTargetState": "/garage_doors/garage_door_2/lock/set",
+                "getLockTargetState": "/garage_doors/garage_door_2/lock/target",
+                "getLockCurrentState": "/garage_doors/garage_door_2/lock",
+                "getObstructionDetected": "/garage_doors/garage_door_2/obstruction"
+           },
+           "doorValues": [ "Open", "Closed", "Opening", "Closing", "Stopped" ],
+           "lockValues": [ "Unsecured", "Secured", "Jammed",  "Unknown" ]
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "humiditySensor",
+           "name": "Humidity Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentRelativeHumidity": "/humidity/test_1",
+               "getStatusActive":       "/humidity/test_1/active",
+               "getStatusFault":        "/humidity/test_1/fault",
+               "getStatusTampered":     "/humidity/test_1/tampered",
+               "getStatusLowBattery":   "/humidity/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "humiditySensor",
+           "name": "Humidity Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentRelativeHumidity": "/humidity/test_2",
+               "getStatusActive":       "/humidity/test_2/active",
+               "getStatusFault":        "/humidity/test_2/fault",
+               "getStatusTampered":     "/humidity/test_2/tampered",
+               "getStatusLowBattery":   "/humidity/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "humiditySensor",
+           "name": "Humidity Sensor 3",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentRelativeHumidity": "/humidity/test_3",
+               "getStatusActive":       "/humidity/test_3/active",
+               "getStatusFault":        "/humidity/test_3/fault",
+               "getStatusTampered":     "/humidity/test_3/tampered",
+               "getStatusLowBattery":   "/humidity/test_3/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "humiditySensor",
+           "name": "Humidity Sensor 4",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentRelativeHumidity": "/humidity/test_4",
+               "getStatusActive":       "/humidity/test_4/active",
+               "getStatusFault":        "/humidity/test_4/fault",
+               "getStatusTampered":     "/humidity/test_4/tampered",
+               "getStatusLowBattery":   "/humidity/test_4/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "temperatureSensor",
+           "name": "Temperature Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentTemperature": "/temperature/test_1",
+               "getStatusActive":       "/temperature/test_1/active",
+               "getStatusFault":        "/temperature/test_1/fault",
+               "getStatusTampered":     "/temperature/test_1/tampered",
+               "getStatusLowBattery":   "/temperature/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "temperatureSensor",
+           "name": "Temperature Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentTemperature": "/temperature/test_2",
+               "getStatusActive":       "/temperature/test_2/active",
+               "getStatusFault":        "/temperature/test_2/fault",
+               "getStatusTampered":     "/temperature/test_2/tampered",
+               "getStatusLowBattery":   "/temperature/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "temperatureSensor",
+           "name": "Temperature Sensor 3",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentTemperature": "/temperature/test_3",
+               "getStatusActive":       "/temperature/test_3/active",
+               "getStatusFault":        "/temperature/test_3/fault",
+               "getStatusTampered":     "/temperature/test_3/tampered",
+               "getStatusLowBattery":   "/temperature/test_3/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "temperatureSensor",
+           "name": "Temperature Sensor 4",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentTemperature": "/temperature/test_4",
+               "getStatusActive":       "/temperature/test_4/active",
+               "getStatusFault":        "/temperature/test_4/fault",
+               "getStatusTampered":     "/temperature/test_4/tampered",
+               "getStatusLowBattery":   "/temperature/test_4/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "leakSensor",
+           "name": "Leak Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getLeakDetected": "/leak/test_1",
+               "getStatusActive":       "/leak/test_1/active",
+               "getStatusFault":        "/leak/test_1/fault",
+               "getStatusTampered":     "/leak/test_1/tampered",
+               "getStatusLowBattery":   "/leak/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "leakSensor",
+           "name": "Leak Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getLeakDetected": "/leak/test_2",
+               "getStatusActive":       "/leak/test_2/active",
+               "getStatusFault":        "/leak/test_2/fault",
+               "getStatusTampered":     "/leak/test_2/tampered",
+               "getStatusLowBattery":   "/leak/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "lightSensor",
+           "name": "Light Sensor 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentAmbientLightLevel": "/light_senors/test_1",
+               "getStatusActive":       "/light_senors/test_1/active",
+               "getStatusFault":        "/light_senors/test_1/fault",
+               "getStatusTampered":     "/light_senors/test_1/tampered",
+               "getStatusLowBattery":   "/light_senors/test_1/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "lightSensor",
+           "name": "Light Sensor 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentAmbientLightLevel": "/light_senors/test_2",
+               "getStatusActive":       "/light_senors/test_2/active",
+               "getStatusFault":        "/light_senors/test_2/fault",
+               "getStatusTampered":     "/light_senors/test_2/tampered",
+               "getStatusLowBattery":   "/light_senors/test_2/low_battery"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "television",
+           "name": "Main TV",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "setActive": "/tvs/main/set",
+               "getActive":       "/tvs/main",
+               "setActiveInput":        "/tvs/main/input/set",
+               "getActiveInput":     "/tvs/main/input",
+               "setRemoteKey":   "/tvs/main/remote_key/set"
+           },
+           "inputs": [
+               {
+                   "name":     "Apple TV",
+                   "value":    "apple_tv"
+               },
+               {
+                   "name":     "Video Games",
+                   "value":    "video_games"
+               }
+           ], "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "thermostat",
+           "name": "Thermostat 1",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentAmbientLightLevel": "/thermostats/thermostat_1",
+               "getCurrentHeatingCoolingState":  "/thermostats/thermostat_1/state",
+               "setTargetHeatingCoolingState":   "/thermostats/thermostat_1/state/set",
+               "getTargetHeatingCoolingState":   "/thermostats/thermostat_1/state/target",
+               "getCurrentTemperature":          "/thermostats/thermostat_1/temperature",
+               "setTargetTemperature":           "/thermostats/thermostat_1/temperature/target/set",
+               "getTargetTemperature":           "/thermostats/thermostat_1/temperature/target",
+               "setTemperatureDisplayUnits":     "/thermostats/thermostat_1/units/set",
+               "getTemperatureDisplayUnits":     "/thermostats/thermostat_1/units",
+               "getCurrentRelativeHumidity":     "/thermostats/thermostat_1/humidity"
+           },
+           "integerValue": "true"
+       },
+       {
+           "accessory": "mqttthing",
+           "type": "thermostat",
+           "name": "Thermostat 2",
+           "url": "mqtt://localhost",
+           "topics":
+           {
+               "getCurrentAmbientLightLevel": "/thermostat/thermostat_2",
+               "getCurrentHeatingCoolingState":  "/thermostat/thermostat_2/state",
+               "setTargetHeatingCoolingState":   "/thermostat/thermostat_2/state/set",
+               "getTargetHeatingCoolingState":   "/thermostat/thermostat_2/state/target",
+               "getCurrentTemperature":          "/thermostat/thermostat_2/temperature",
+               "setTargetTemperature":           "/thermostat/thermostat_2/temperature/target/set",
+               "getTargetTemperature":           "/thermostat/thermostat_2/temperature/target",
+               "setTemperatureDisplayUnits":     "/thermostat/thermostat_2/units/set",
+               "getTemperatureDisplayUnits":     "/thermostat/thermostat_2/units",
+               "getCurrentRelativeHumidity":     "/thermostat/thermostat_2/humidity"
+           },
+           "integerValue": "true"
+       }
+       
+           ],
+    "platforms": []
+}
